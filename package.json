@@ -4,7 +4,7 @@
   "description": "Paint by numbers generator",
   "bin": "./src-cli/main.js",
   "scripts": {
-    "deploy": "gh-pages -d docs",
+    "deploy": "gh-pages -h",
     "lite": "lite-server --port 10001",
     "start": "npm run lite"
   },
